@@ -70,17 +70,34 @@ body{
 
 #parallax{
     background-image: url('../img/fundo.jpg');
-    height: 450px;
+   
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+color: var(--cor02);
+    padding-top: 10px;
+    padding-bottom: 300px;
+    height: 60vw;
 }
 #parallax2{
     background-image: url('../img/fundo2.jpg');
+
     padding: 50px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vw;
+    color: var(--cor02);
+   
 
 }
 
 .titulo{
-    font-size: 2em;
-    width: 600px;
+    font-size: 3em;
+ text-align: center;
+    margin: auto;
     font-family: var(--fontDestaque);
     padding: 60px;
 
@@ -128,13 +145,33 @@ line-height: 1.2em;
 color: rgba(19, 18, 18);
 }
 
-
+.alinhamento{
+ margin-left:120px;
+ margin-top: 20px;
+}
 .box{
-    display: flex;
+    height: 300px;
+    background-color: var(--cor02);
+    margin: 20px;
+    
+
+
     
 }
+#especialidades{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
-
+}
+.especial-titulo{
+    font-size: 1.2em;
+    font-family: var(--fontDestaque);
+    text-align: center;
+    padding: 20px;
+}
+.esp{
+    margin-bottom: 40px;
+}
 
 .footer{
     background: var(--cor01);
