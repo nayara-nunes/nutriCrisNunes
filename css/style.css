@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+:root{
+    --cor01:#EDAE78;
+    --cor02:#2b8c98;
+    --cor03: #CAD2CD;
+    --cor04:#d0591d;
+    --cor05:#9caba2;
+
+    --fontDestaque: "Caviar Dreams";
+    --fontPadrao: 'Varela Round', sans-serif;
+
+
+}
+
+body{
+    background: var(--cor03);
+}
+
+
+.redes-sociais{
+    background: var(--cor01);
+    width: 100%;
+    height: 50px;
+}
+
+.logo{
+    width: 80px;
+    justify-content: center;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu ul li{
+    margin: 20px;
+
+  
+}
+
+.menu ul li a{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: var(--cor04);
+  font-family: var(--fontDestaque);
+  font-weight: bold;
+}
+
+
+
+#parallax{
+    background-image: url('../img/fundo.jpg');
+    height: 450px;
+}
+#parallax2{
+    background-image: url('../img/fundo2.jpg');
+    padding: 50px;
+
+}
+
+.titulo{
+    font-size: 2em;
+    width: 600px;
+    font-family: var(--fontDestaque);
+    padding: 60px;
+
+}
+.subtitulo{
+    font-size: 1.8em;
+    font-family: var(--fontDestaque);
+    padding: 40px;
+    text-align: center;
+    color: var(--cor02);
+}
+/*.subtitulo ::after{
+    content: '';
+    text-align: center;
+    display: block;
+    margin: 20px;
+    width: 100px;
+    height: 8px;
+    background: var(--cor04);
+   
+}*/
+
+.sub-titulo{
+    text-align: center;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: var(--fontDestaque);
+    font-weight: bold;
+    background: var(--cor02);
+    border: none;
+    color: var(--cor05);
+}
+
+.paragrafo{
+    text-align: justify;
+    text-indent: 40px;
+    width: 80%;
+ margin: auto;
+ font-family: var(--fontPadrao);
+ margin-top: 20px;
+line-height: 1.2em;
+color: rgba(19, 18, 18);
+}
+
+
+.box{
+    display: flex;
+    
+}
+
+
+
+.footer{
+    background: var(--cor01);
+    padding: 10px;
+    font-family: var(--fontPadrao);
+    color: rgba(19, 18, 18);
+    text-align: center;
+}
